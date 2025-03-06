@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$PYTHON_EXTENSIONS/
+
+# Environnements virtuels
+venv/
+.env
+*.env
+*.venv
+
+# Dépendances
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs et fichiers temporaires
+logs/
+*.log
+*.out
+*.pid
+
+# Caches et compilations
+*.egg-info/
+dist/
+build/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# FastAPI specific
+instance/
+config.py
+config.yaml
